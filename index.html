@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>FLAMES</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type='text/javascript' src='flames.js'></script>
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+
+<style>
+		html {
+			background: url("image/img.png") no-repeat ;
+			
+			
+		}
+		.resp_code{
+			background-image: url('image/img.png');
+  			border: 2px solid  #642B73;
+        border-radius: 8px;  
+		}
+		.resp_code h2{
+      
+			    font-family: cursive;
+   			 color: crimson;
+   			 font-size: 35px;
+		}	
+    body{
+      background-image: url('image/img.png');
+
+    }
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+        
+      <p><h1>FLAMES</h1></p>
+</div>
+<div class="main-container"> 
+<div class='resp_code'>
+    		<div class="name" align='center'><h2> FLAMES PROBLEM</h2></div>
+   			 <form name=first>
+            <div class='love' id='maindiv'>
+               <div class='group' style='padding:15px;'>
+                    <div class='p_name group'>
+                      <i class="material-icons">face</i>
+                        <b>First Name</b>
+                        <input value='' name=name onkeyup=checnum(this) type=text class='txt' id='yname'>
+                    </div>    <br>      
+
+                    <div class='group p_name' align='center'>
+                      <i class="material-icons prefix">tag_faces</i>
+                     <b>Second Name</b>                                   
+                        <input value='' name=name1 onkeyup=checnum(this) type=text class='txt' id='pname'>
+                    </div>
+					 <div name=n1 id=nam1></div>
+					<div style='font-weight:bold;' id='msg'></div>
+                </div>
+                <div class='but_por'>
+                    <input name=calculate type=button value=FLAMES onclick=calc() class='buttonMini'>
+                    <input type=reset value=Reset onclick='clear_all()' class='buttonMini'>
+                  </div>
+			<span  align='center' style="font-size: 10px;color: #dadada;" id="dumdiv">
+            </span>
+                </div>
+           
+    
+            <div id='tablid' class='clearfix'>
+                <div class='group' align='center'>
+                    <div class='love_result'>
+                        <span name=n1 id=nam1></span>
+                        
+                    </div>
+                </div>
+            </div>
+    </form>
+</div>
+</div>
+</div>
+<footer>
+     <div class="container">
+     	
+                <h3 style="text-align: center; color: #fff; font-size:20px; ">About FLAMES GAME
+                <p style="text-align: center; color: #fff; position: center;" >Recall your childhood memories by playing this lovely FLAMES Game to find the relationship of you and your partner. Though this is not 100% real, it generates a lot of fun when paying with best buddies, lovers or life partners.</p></h3>
+              </div>
+     	
+     
+</footer>
+
+
+
+</body>
+</html>
